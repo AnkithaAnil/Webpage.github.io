@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yayy!</title>
     <style>
     body{
         background: linear-gradient(to right,#e16adb, #a31b7a);
+        margin: 0;
+        padding: 0;
     }
     h2{
         text-align: center;
         font-family: cursive;
-        font-size: 50px;
+        font-size: 5vw; /* Adjust font size based on viewport width */
         padding: 10px;
-        margin-top: 200px;
+        margin-top: 10vh; /* Adjust margin based on viewport height */
         color:white;
     }
     img {
-        margin-left: 650px;
-        width: 200px;
+        display: block;
+        margin: 0 auto;
+        width: 40vw; /* Adjust image width based on viewport width */
+        max-width: 200px; /* Set maximum width for smaller screens */
         height: auto;
         border-radius: 25px;
+        margin-top: 5vh; /* Adjust margin based on viewport height */
     }
     </style>
 </head>
 <body>
-    <h2 class="It's a Date !!">It's a DATE!!!</h1>
-    <img src="https://i.pinimg.com/originals/39/6d/8c/396d8cf19235b7b437d1067045a63b5a.gif" height="50" width="50">
+    <h2>It's a DATE!!!</h2>
+    <img src="https://i.pinimg.com/originals/39/6d/8c/396d8cf19235b7b437d1067045a63b5a.gif">
 </body>
 </html>
